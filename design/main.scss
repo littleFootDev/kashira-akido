@@ -1,0 +1,13 @@
+$navbar-dark-color:   white;
+$navbar-nav-link-padding-x: 3.5rem;
+$navbar-dark-hover-color: red;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+body {
+  height: 100vh;
+}
