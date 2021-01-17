@@ -2,9 +2,24 @@ $navbar-dark-color:   white;
 $navbar-nav-link-padding-x: 3.5rem;
 $navbar-dark-hover-color: red;
 
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-a:hover {
-  text-decoration: underline;
-  color: red;
+.technique {
+  background: red;
+}
+.nav-item:hover {
+  text-decoration: underline red;
+  
+}
+p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 980px) {
+  .technique {
+    background: #212529;
+    margin-top: 1em;
+    color: white;
+  }
 }
